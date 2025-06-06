@@ -24120,7 +24120,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .property-card-wrap.style-dark {
-  border-color: rgba(28, 45, 55, 0.2);
+  border-color: #d1d1d1;
 }
 
 .property-card-wrap:hover .property-thumb img {
@@ -24206,7 +24206,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .property-card .property-card-title a {
-  color: inherit;
+  color: #fff;
 }
 
 .property-card .property-card-title:hover {
@@ -24315,10 +24315,10 @@ span.select2-selection.select2-selection--single:focus {
   padding-right: 0;
 }
 
-.property-card .property-card-meta span img {
+/* .property-card .property-card-meta span img {
   -webkit-filter: brightness(9);
   filter: brightness(9);
-}
+} */
 
 @media (max-width: 1399px) {
   .property-card .property-card-meta span {
@@ -24378,16 +24378,16 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .property-card.style-dark .property-card-number {
-  border-color: rgba(28, 45, 55, 0.2);
-  color: var(--theme-color);
+  border-color: #d1d1d1;
+  color: #d1d1d1;
 }
 
 .property-card.style-dark .property-card-details {
-  border-color: rgba(28, 45, 55, 0.2);
+  border-color: #d1d1d1;
 }
 
 .property-card.style-dark .property-card-subtitle {
-  color: var(--theme-color);
+  color: #d1d1d1;
 }
 
 .property-card.style-dark .property-card-title {
@@ -24401,12 +24401,12 @@ span.select2-selection.select2-selection--single:focus {
 .property-card.style-dark .property-ratting-wrap,
 .property-card.style-dark .property-card-price,
 .property-card.style-dark .property-card-text {
-  color: var(--theme-color);
+  color: #d1d1d1;
 }
 
 .property-card.style-dark .property-ratting-wrap .star-ratting {
-  border-color: rgba(28, 45, 55, 0.2);
-  color: var(--theme-color);
+  border-color: #D3A258;
+  color: #D3A258;
 }
 
 .property-card.style-dark .property-ratting-wrap .star-ratting .directorist-icon-mask:after {
@@ -24414,14 +24414,14 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .property-card.style-dark .property-card-meta span {
-  color: var(--theme-color);
+  color: #d1d1d1;
   border-color: rgba(28, 45, 55, 0.2);
 }
 
-.property-card.style-dark .property-card-meta span img {
+/* .property-card.style-dark .property-card-meta span img {
   -webkit-filter: brightness(0.2);
   filter: brightness(0.2);
-}
+} */
 
 .property-card.style-dark .property-card-meta span.divider-line {
   background: rgba(28, 45, 55, 0.2);
