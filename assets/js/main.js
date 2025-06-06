@@ -1393,12 +1393,7 @@
 
 })(jQuery);
 
-document.addEventListener("DOMContentLoaded", function () {
-    if (window.location.pathname.endsWith(".html")) {
-        const newPath = window.location.pathname.replace(/\.html$/, "");
-        window.history.replaceState({}, "", newPath + window.location.search + window.location.hash);
-    }
-});
+
 
 
 
